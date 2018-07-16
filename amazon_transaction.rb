@@ -18,6 +18,7 @@ class AmazonTransaction
     if @discount = 20
       @total == @total - @total*@discount/100
     else 
+      @total = total
     end 
   end 
   
